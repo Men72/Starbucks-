@@ -12,56 +12,58 @@
 </head>
 <body>
   <header>
-  <nav class="navbar navbar-expand-lg bg-white half-screen py-3">
-      <div class="container-fluid">
-          <a class="navbar-brand me-4" href="#">
-              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" alt="Starbucks" style="height:56px;">
-          </a>
+    <nav class="navbar navbar-expand-lg bg-white half-screen py-3">
+        <div class="container-fluid">
+            <a class="navbar-brand me-4" href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" alt="Starbucks" style="height:56px;">
+            </a>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-              
-              <div class="offcanvas-header">
-                  <a class="navbar-brand offcanvas-title" id="offcanvasNavbarLabel" href="#">
-                      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" alt="Starbucks" style="height:56px;">
-                  </a>
-                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              
-              <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between align-items-lg-center p-4 p-lg-0">
-                  <ul class="navbar-nav flex-column flex-lg-row ">
-                      <li class="nav-item mb-3 mb-lg-0">
-                          <a class="nav-link tablink fw-bold fs-6 text-dark" onclick="openPage('Menu', this, 'white')" id="defaultOpen" href="#">MENU</a>
-                      </li>
-                      <li class="nav-item mb-3 mb-lg-0">
-                          <a class="nav-link tablink fw-bold fs-6 text-dark" onclick="openPage('Rewards', this, 'white')" href="#">REWARDS</a>
-                      </li>
-                      <li class="nav-item mb-3 mb-lg-0">
-                          <a class="nav-link tablink fw-bold fs-6 text-dark" onclick="openPage('GiftCards', this, 'white')" href="#">GIFT CARDS</a>
-                      </li>
-                  </ul>
-                  <hr class="d-lg-none border-bottom ">
-                  <div class="d-flex flex-column flex-lg-row align-items-start align-items-lg-center gap-3 Find-a-store ">
-                      <a href="#" class="dark px-3 d-flex align-items-center">
-                          <i class="bi bi-geo-alt me-2"></i> Find a store
-                      </a>
-                      <button class="btn btn-outline-dark rounded-pill px-4">Sign in</button>
-                      <button class="btn btn-dark rounded-pill px-4 fw-bold">Join now</button>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </nav>
-
-  <div class="green-card">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                
+                <div class="offcanvas-header">
+                    <a class="navbar-brand offcanvas-title" id="offcanvasNavbarLabel" href="#">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" alt="Starbucks" style="height:56px;">
+                    </a>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                
+                <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between align-items-lg-center p-4 p-lg-0">
+                    <ul class="navbar-nav flex-column flex-lg-row ">
+                        <li class="nav-item mb-3 mb-lg-0">
+                            <a class="nav-link tablink fw-bold fs-6 text-dark" onclick="openPage('Menu', this, 'white')" id="defaultOpen" href="#">MENU</a>
+                        </li>
+                        <li class="nav-item mb-3 mb-lg-0">
+                            <a class="nav-link tablink fw-bold fs-6 text-dark" onclick="openPage('Rewards', this, 'white')" href="#">REWARDS</a>
+                        </li>
+                        <li class="nav-item mb-3 mb-lg-0">
+                            <a class="nav-link tablink fw-bold fs-6 text-dark" onclick="openPage('GiftCards', this, 'white')" href="#">GIFT CARDS</a>
+                        </li>
+                    </ul>
+                    <hr class="d-lg-none border-bottom ">
+                    <div class="d-flex flex-column flex-lg-row align-items-start align-items-lg-center gap-3 Find-a-store ">
+                        <a href="#" class="dark px-3 d-flex align-items-center">
+                            <i class="bi bi-geo-alt me-2"></i> Find a store
+                        </a>
+                        <button class="btn btn-outline-dark rounded-pill px-4">Sign in</button>
+                        <button class="btn btn-dark rounded-pill px-4 fw-bold">Join now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+  </header>
+  
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="background-color: #1e3932;">
     <div class="container-fluid">
-      STARBUCKS® REWARDS
+        <a class="navbar-brand" href="#">Starbucks® Rewards</a>
     </div>
-  </div>
-</header>
+</nav>
+
+
 
 <div class="container-fluid h-image" id="Rewards">
   <div class="row align-items-center">
